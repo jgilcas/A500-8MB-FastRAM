@@ -11,11 +11,9 @@ Everything has been designed to be as easy to solder as possible, minimal surfac
 
 The code for the CPLD has been mostly unchanged from the original, just a single letter changed to reflect usage in the A500 as opposed to the A600.
 
-The original design used an Altera EPM7064 5v CPLD - this has been changed for an Atmel ATF1502 - as these are pin-compatible replacements. 
+The original design used an Altera EPM7064 5v CPLD - this has been changed for an Atmel ATF1502ASV - as these are pin-compatible replacements. 
 
 A BOM will follow, but the schematic should be labelled well enough that you can get all the component values.
-
-Schematic Page 1.png
 
 ![A500 8MB FastRAM Board - Schematic Page 1](Schematic%20Page%201.png?raw=true "A500 8MB FastRAM Board - Schematic Page 1")
 
