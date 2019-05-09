@@ -2,9 +2,9 @@ module a500_8mb( cpu_a21,cpu_a22,cpu_a23,
                  cpu_a1, cpu_a2, cpu_a3, cpu_a4, cpu_a5, cpu_a6,
                  cpu_a16,cpu_a17,cpu_a18,cpu_a19,cpu_a20,
                  cpu_d12,cpu_d13,cpu_d14,cpu_d15,
-                 cpu_nas,cpu_nlds,cpu_nuds,cpu_clk,
-                 cpu_nreset,
-                 dram_nras0,dram_nras1,dram_nras2,dram_nras3, dram_nlcas,dram_nucas,
+                 cpu_as,cpu_lds,cpu_uds,cpu_clk,
+                 cpu_reset,
+                 dram_ras0,dram_ras1,dram_ras2,dram_ras3, dram_lcas,dram_ucas,
                  dram_ma0,dram_ma1,
                  mux_switch
                );
@@ -17,16 +17,16 @@ module a500_8mb( cpu_a21,cpu_a22,cpu_a23,
 	inout cpu_d12,cpu_d13,cpu_d14,cpu_d15; // autoconfig data in-out
 	reg   cpu_d12,cpu_d13,cpu_d14,cpu_d15;
 
-	input cpu_nas,cpu_nlds,cpu_nuds; // cpu bus control signals
+	input cpu_as,cpu_lds,cpu_uds; // cpu bus control signals
 	input cpu_clk; // cpu clock
 
-	input cpu_nreset; // cpu system reset
+	input cpu_reset; // cpu system reset
 
-	output dram_nras0,dram_nras1,dram_nras2,dram_nras3;
-	reg    dram_nras0,dram_nras1,dram_nras2,dram_nras3; // /RAS dram signals
+	output dram_ras0,dram_ras1,dram_ras2,dram_ras3;
+	reg    dram_ras0,dram_ras1,dram_ras2,dram_ras3; // /RAS dram signals
 
-	output dram_nlcas,dram_nucas;
-	reg    dram_nlcas,dram_nucas; // /CAS dram signals
+	output dram_lcas,dram_ucas;
+	reg    dram_lcas,dram_ucas; // /CAS dram signals
 
 	output dram_ma0,dram_ma1;
 	reg    dram_ma0,dram_ma1; // DRAM MAx addresses
@@ -50,7 +50,7 @@ module a500_8mb( cpu_a21,cpu_a22,cpu_a23,
 	reg read_cycle; // if current cycle is read cycle
 	reg write_cycle;
 	reg autoconf_on;
-	reg cpu_nas_z; // cpu /AS with 1 clock latency
+	reg cpu_as_z; // cpu /AS with 1 clock latency
 
 	reg [1:0] rfsh_select; // for cycling refresh over every of four chips
 
@@ -98,9 +98,9 @@ module a500_8mb( cpu_a21,cpu_a22,cpu_a23,
 
 
 	// normal cycle generator
-	always @(posedge cpu_clk,posedge cpu_nas)
+	always @(posedge cpu_clk,posedge cpu_as)
 	begin
-		if( cpu_nas==1 )
+		if( cpu_as==1 )
 		begin // /AS=1
 			access_ras <= 0;
 			access_cas <= 0;
@@ -131,7 +131,7 @@ module a500_8mb( cpu_a21,cpu_a22,cpu_a23,
 	// refresh cycle generator
 	always @(negedge cpu_clk)
 	begin
-		if( cpu_nas==1 ) // /AS negated
+		if( cpu_as==1 ) // /AS negated
 		begin
 			rfsh_cas <= ~rfsh_cas;
 		end
@@ -140,7 +140,7 @@ module a500_8mb( cpu_a21,cpu_a22,cpu_a23,
 			rfsh_cas <= 0;
 		end
 
-		if( (rfsh_cas == 1'b0) && (cpu_nas==1) )
+		if( (rfsh_cas == 1'b0) && (cpu_as==1) )
 		begin
 			rfsh_select <= rfsh_select + 2'b01;
 		end
@@ -156,13 +156,13 @@ module a500_8mb( cpu_a21,cpu_a22,cpu_a23,
 	// output signals generator
 	always @*
 	begin
-		dram_nras0 <= ~( ( which_ras[0] & access_ras ) | ((rfsh_select==2'b00)?rfsh_ras:1'b0) );
-		dram_nras1 <= ~( ( which_ras[1] & access_ras ) | ((rfsh_select==2'b01)?rfsh_ras:1'b0) );
-		dram_nras2 <= ~( ( which_ras[2] & access_ras ) | ((rfsh_select==2'b10)?rfsh_ras:1'b0) );
-		dram_nras3 <= ~( ( which_ras[3] & access_ras ) | ((rfsh_select==2'b11)?rfsh_ras:1'b0) );
+		dram_ras0 <= ~( ( which_ras[0] & access_ras ) | ((rfsh_select==2'b00)?rfsh_ras:1'b0) );
+		dram_ras1 <= ~( ( which_ras[1] & access_ras ) | ((rfsh_select==2'b01)?rfsh_ras:1'b0) );
+		dram_ras2 <= ~( ( which_ras[2] & access_ras ) | ((rfsh_select==2'b10)?rfsh_ras:1'b0) );
+		dram_ras3 <= ~( ( which_ras[3] & access_ras ) | ((rfsh_select==2'b11)?rfsh_ras:1'b0) );
 
-		dram_nlcas <= ~( ( ~cpu_nlds & access_cas & mem_selected ) | rfsh_cas );
-		dram_nucas <= ~( ( ~cpu_nuds & access_cas & mem_selected ) | rfsh_cas );
+		dram_lcas <= ~( ( ~cpu_lds & access_cas & mem_selected ) | rfsh_cas );
+		dram_ucas <= ~( ( ~cpu_uds & access_cas & mem_selected ) | rfsh_cas );
 	end
 
 
@@ -179,25 +179,25 @@ module a500_8mb( cpu_a21,cpu_a22,cpu_a23,
 	end
 
 
-	// make clocked cpu_nas_z
+	// make clocked cpu_as_z
 	always @(posedge cpu_clk)
 	begin
-		cpu_nas_z <= cpu_nas;
+		cpu_as_z <= cpu_as;
 	end
 
 	// detect if current cycle is read or write cycle
-	always @(posedge cpu_clk, posedge cpu_nas)
+	always @(posedge cpu_clk, posedge cpu_as)
 	begin
-		if( cpu_nas==1 ) // async reset on end of /AS strobe
+		if( cpu_as==1 ) // async reset on end of /AS strobe
 		begin
 			read_cycle  <= 0; // end of cycles
 			write_cycle <= 0;
 		end
 		else // sync beginning of cycle
 		begin
-			if( cpu_nas==0 && cpu_nas_z==1 ) // beginning of /AS strobe
+			if( cpu_as==0 && cpu_as_z==1 ) // beginning of /AS strobe
 			begin
-				if( (cpu_nlds&cpu_nuds)==0 )
+				if( (cpu_lds&cpu_uds)==0 )
 					read_cycle <= 1;
 				else
 					write_cycle <= 1;
@@ -254,9 +254,9 @@ module a500_8mb( cpu_a21,cpu_a22,cpu_a23,
 	end
 
 	// autoconfig cycle on/off
-	always @(posedge write_cycle,negedge cpu_nreset)
+	always @(posedge write_cycle,negedge cpu_reset)
 	begin
-		if( cpu_nreset==0 ) // reset - begin autoconf
+		if( cpu_reset==0 ) // reset - begin autoconf
 			autoconf_on <= 1;
 		else
 		begin
