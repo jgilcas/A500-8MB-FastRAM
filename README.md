@@ -5,6 +5,7 @@
 8MB FastRAM Board for the Amiga 500 &amp; Amiga 500+
 
 This board is based on the A600 8MB FastRAM board here: http://lvd.nedopc.com/Projects/a600_8mb/index.html
+
 As such, the schematic is a derivative/fork of the original design, to accommodate it's usage in A500's (might also work in A1000's & A2000's).
 
 Everything has been designed to be as easy to solder as possible, minimal surface mount, with the exception of the memory modules, but they're SOJ-42, which should be easy enough even with a basic soldering iron.
