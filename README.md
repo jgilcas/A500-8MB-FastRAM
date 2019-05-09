@@ -12,4 +12,4 @@ The original design used an Altera EPM7064 5v CPLD - this has been changed for a
 
 A BOM will follow, but the schematic should be labelled well enough that you can get all the component values.
 
-https://github.com/kr239/A500-8MB-FastRAM/blob/master/A500%20FastRAM%20Orth1b.png
+![A500 8MB FastRAM Board](A500%20FastRAM%20Orth1b.png?raw=true "A500 8MB FastRAM Board")
