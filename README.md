@@ -11,3 +11,5 @@ The code for the CPLD has been mostly unchanged from the original, just a single
 The original design used an Altera EPM7064 5v CPLD - this has been changed for an Atmel ATF1502 - as these are pin-compatible replacements. 
 
 A BOM will follow, but the schematic should be labelled well enough that you can get all the component values.
+
+https://github.com/kr239/A500-8MB-FastRAM/blob/master/A500%20FastRAM%20Orth1b.png
