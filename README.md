@@ -23,16 +23,23 @@ The original design used an Altera EPM7032 5v CPLD - this has been changed for a
 # Bill of Materials
 
 1 x TI TPS7333QP - https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS7333QP?qs=sGAEpiMZZMsGz1a6aV8DcPXeWoVS0FnzG9Q6QtE79H4%3D
+
 2 x 74AHCT157N - https://www.mouser.co.uk/ProductDetail/Texas-Instruments/SN74AHCT157N?qs=sGAEpiMZZMtxONTBFIcRfgMIbQHDmxevRGwLkGEQEjo%3D
+
 4 x ISSI IS41LV6100D-50KLI - https://www.mouser.co.uk/ProductDetail/ISSI/IS41LV16100D-50KLI?qs=sGAEpiMZZMti5BT4iPSEnceOTYqGrIvVPVYLC4ueHfI%3D
+
 1 x Microchip ATF1502ASV-15JU44 - https://www.digikey.co.uk/product-detail/en/microchip-technology/ATF1502ASV-15JU44/ATF1502ASV-15JU44-ND/1008571
 
 18 x 0.1uF X7R MLCC Capacitors - https://www.mouser.co.uk/ProductDetail/Vishay/A104M15X7RF5TAA?qs=sGAEpiMZZMt3KoXD5rJ2N0XmixHAufRxOaDBAbHwq68%3D
+
 3 x 10k Metal Film Resistors - https://www.mouser.co.uk/ProductDetail/Yageo/MFR-25FRF52-10K?qs=sGAEpiMZZMu61qfTUdNhGztMfEiwFKKTpKeEBKehEYg%3D
 
 1 x DIP-8 Socket - https://www.mouser.co.uk/ProductDetail/Mill-Max/115-47-308-41-001000?qs=sGAEpiMZZMs%2FSh%2Fkjph1tkCPjfxlAKUmvzlAYtWANYQ%3D
-2 x DIP-16 Socket - https://www.mouser.co.uk/ProductDetail/Mill-Max/115-47-316-41-001000?qs=sGAEpiMZZMs%2FSh%2Fkjph1tkCPjfxlAKUmVX4IEPiLC6M%3D
-1 x DIP-64 Socket - https://www.mouser.co.uk/ProductDetail/Mill-Max/110-93-964-41-001000?qs=sGAEpiMZZMs%2FSh%2Fkjph1tvt1%2FmEPT%2FXoOM6K6uUd7C4%3D
-1 x PLCC-44 Socket - https://www.mouser.co.uk/ProductDetail/Mill-Max/940-44-044-24-000000?qs=sGAEpiMZZMs%2FSh%2Fkjph1tvt1%2FmEPT%2FXokeuUw4hSJ6E%3D
-2 x SIL-32 Headers - https://www.mouser.co.uk/ProductDetail/Harwin/M20-9993246?qs=sGAEpiMZZMs%252BGHln7q6pmzlZUuX%2F53qjvbFdqJAMwHI%3D
 
+2 x DIP-16 Socket - https://www.mouser.co.uk/ProductDetail/Mill-Max/115-47-316-41-001000?qs=sGAEpiMZZMs%2FSh%2Fkjph1tkCPjfxlAKUmVX4IEPiLC6M%3D
+
+1 x DIP-64 Socket - https://www.mouser.co.uk/ProductDetail/Mill-Max/110-93-964-41-001000?qs=sGAEpiMZZMs%2FSh%2Fkjph1tvt1%2FmEPT%2FXoOM6K6uUd7C4%3D
+
+1 x PLCC-44 Socket - https://www.mouser.co.uk/ProductDetail/Mill-Max/940-44-044-24-000000?qs=sGAEpiMZZMs%2FSh%2Fkjph1tvt1%2FmEPT%2FXokeuUw4hSJ6E%3D
+
+2 x SIL-32 Headers - https://www.mouser.co.uk/ProductDetail/Harwin/M20-9993246?qs=sGAEpiMZZMs%252BGHln7q6pmzlZUuX%2F53qjvbFdqJAMwHI%3D
