@@ -1,6 +1,6 @@
-![A500 8MB FastRAM Board](A500%20FastRAM%20Orth1b.png?raw=true "A500 8MB FastRAM Board")
-
 # A500-8MB-FastRAM
+
+![A500 8MB FastRAM Board](A500%20FastRAM%20Orth1b.png?raw=true "A500 8MB FastRAM Board")
 
 8MB FastRAM Board for the Amiga 500 &amp; Amiga 500+
 
@@ -14,5 +14,3 @@ The code for the CPLD has been mostly unchanged from the original, just a single
 The original design used an Altera EPM7064 5v CPLD - this has been changed for an Atmel ATF1502 - as these are pin-compatible replacements. 
 
 A BOM will follow, but the schematic should be labelled well enough that you can get all the component values.
-
-![A500 8MB FastRAM Board](A500%20FastRAM%20Orth1b.png?raw=true "A500 8MB FastRAM Board")
