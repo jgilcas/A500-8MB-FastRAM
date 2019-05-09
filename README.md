@@ -1,4 +1,7 @@
+![A500 8MB FastRAM Board](A500%20FastRAM%20Orth1b.png?raw=true "A500 8MB FastRAM Board")
+
 # A500-8MB-FastRAM
+
 8MB FastRAM Board for the Amiga 500 &amp; Amiga 500+
 
 This board is based on the A600 8MB FastRAM board here: http://lvd.nedopc.com/Projects/a600_8mb/index.html
