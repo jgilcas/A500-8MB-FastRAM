@@ -21,8 +21,9 @@
       )
     )
     (boundary
-      (path pcb 0  215900 -118110  118110 -118110  118110 -30480  215900 -30480
-            215900 -118110)
+      (path pcb 0  205740 -31750  205740 -116840  204470 -118110  119380 -118110
+            118110 -116840  118110 -31750  119380 -30480  204470 -30480
+            205740 -31750)
     )
     (via "Via[0-1]_800:400_um")
     (rule
@@ -34,43 +35,43 @@
   )
   (placement
     (component Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal
-      (place C1 156210 -95250 front 270 (PN 0.1uF))
-      (place C4 189230 -113030 front 90 (PN 0.1uF))
-      (place C6 190500 -43180 front 90 (PN 0.1uF))
-      (place C8 156210 -43180 front 90 (PN 0.1uF))
-      (place C10 195326 -58420 front 90 (PN 0.1uF))
-      (place C12 190500 -73660 front 90 (PN 0.1uF))
-      (place C14 156210 -73660 front 90 (PN 0.1uF))
-      (place C16 195580 -88900 front 90 (PN 0.1uF))
-      (place C18 190500 -46990 front 0 (PN 0.1uF))
+      (place C1 155575 -106807 front 270 (PN 0.1uF))
+      (place C3 158750 -114300 front 90 (PN 0.1uF))
+      (place C5 183515 -88519 front 90 (PN 0.1uF))
+      (place C7 189865 -88519 front 90 (PN 0.1uF))
+      (place C9 186690 -73660 front 90 (PN 0.1uF))
+      (place C11 183515 -60325 front 90 (PN 0.1uF))
+      (place C13 189865 -60325 front 90 (PN 0.1uF))
+      (place C15 186690 -46355 front 90 (PN 0.1uF))
+      (place C18 183515 -36195 front 0 (PN 0.1uF))
     )
     (component Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal::1
-      (place C5 189230 -102870 front 90 (PN 0.1uF))
-      (place C3 156210 -113030 front 90 (PN 0.1uF))
-      (place C7 195580 -43180 front 90 (PN 0.1uF))
-      (place C9 190500 -58420 front 90 (PN 0.1uF))
-      (place C11 156210 -58420 front 90 (PN 0.1uF))
-      (place C13 195580 -73660 front 90 (PN 0.1uF))
-      (place C15 190500 -88900 front 90 (PN 0.1uF))
-      (place C17 156210 -88900 front 90 (PN 0.1uF))
+      (place C4 158750 -104140 front 90 (PN 0.1uF))
+      (place C2 155575 -104140 front 90 (PN 0.1uF))
+      (place C6 186690 -88519 front 90 (PN 0.1uF))
+      (place C8 183515 -73660 front 90 (PN 0.1uF))
+      (place C10 189865 -73660 front 90 (PN 0.1uF))
+      (place C12 186690 -60325 front 90 (PN 0.1uF))
+      (place C14 183515 -46355 front 90 (PN 0.1uF))
+      (place C16 189865 -46355 front 90 (PN 0.1uF))
     )
     (component "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical"
-      (place J1 208280 -110490 front 180 (PN "Microsemi_FlashPro-JTAG-10"))
+      (place J1 197485 -110490 front 180 (PN "Microsemi_FlashPro-JTAG-10"))
     )
     (component "Package_SO_J-Lead:SOJ-42"
-      (place U6 171450 -53340 front 90 (PN IS41LV16100D))
-      (place U8 171450 -83820 front 90 (PN IS41LV16100D))
-      (place U9 171450 -38100 front 90 (PN IS41LV16100D))
+      (place U6 166370 -83820 front 90 (PN IS41LV16100D))
+      (place U8 166370 -55880 front 90 (PN IS41LV16100D))
+      (place U9 166370 -41910 front 90 (PN IS41LV16100D))
     )
     (component "Package_SO_J-Lead:SOJ-42::1"
-      (place U7 171450 -68580 front 90 (PN IS41LV16100D))
+      (place U7 166370 -69850 front 90 (PN IS41LV16100D))
     )
     (component Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
-      (place R1 194310 -113030 front 90 (PN 10k))
-      (place R3 199390 -107950 front 90 (PN 10k))
+      (place R1 186690 -114300 front 90 (PN 10k))
+      (place R3 189865 -109220 front 90 (PN 10k))
     )
     (component Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal::1
-      (place R2 194310 -102870 front 90 (PN 10k))
+      (place R2 186690 -104140 front 90 (PN 10k))
     )
     (component "Package_DIP:DIP-64_W25.4mm_Socket_LongPads"
       (place U2 125730 -35560 front 0 (PN "68000 Socket"))
@@ -79,13 +80,13 @@
       (place U3 173990 -97790 front 0 (PN "ATF1502ASV-15JU44"))
     )
     (component "Package_DIP:DIP-16_W7.62mm"
-      (place U4 210820 -88900 front 180 (PN 74157))
+      (place U4 201295 -88519 front 180 (PN 74157))
     )
     (component "Package_DIP:DIP-16_W7.62mm::1"
-      (place U5 203200 -46990 front 0 (PN 74157))
+      (place U5 193675 -49530 front 0 (PN 74157))
     )
     (component "Package_DIP:DIP-8_W7.62mm"
-      (place U10 203200 -34290 front 0 (PN TPS7333QP))
+      (place U10 193675 -36195 front 0 (PN TPS7333QP))
     )
     (component "Package_DIP:DIP-64_W25.4mm_SIL_Headers"
       (place U1 133350 -73660 front 0 (PN "68000 Boardside"))
@@ -689,14 +690,14 @@
   )
   (network
     (net GND
-      (pins C1-2 C5-1 C3-1 C4-2 C6-2 C7-2 C8-2 C9-2 C10-2 C11-2 C12-2 C13-2 C14-2
-        C15-2 C16-2 C17-2 J1-2 J1-10 U6-42 U6-37 U6-29 U6-22 U7-22 U7-29 U7-37 U7-42
-        U8-42 U8-37 U8-29 U8-22 C18-2 U2-16 U2-53 U3-42 U3-10 U3-22 U3-30 U4-15 U4-8
-        U5-8 U5-15 U9-42 U9-37 U9-29 U9-22 U10-1 U10-2 U1-16 U1-53)
+      (pins C1-2 C4-1 C2-1 C3-2 C5-2 C6-2 C7-2 C8-2 C9-2 C10-2 C11-2 C12-2 C13-2 C14-2
+        C15-2 C16-2 J1-2 J1-10 U6-42 U6-37 U6-29 U6-22 U7-22 U7-29 U7-37 U7-42 U8-42
+        U8-37 U8-29 U8-22 C18-2 U2-16 U2-53 U3-42 U3-10 U3-22 U3-30 U4-15 U4-8 U5-8
+        U5-15 U9-42 U9-37 U9-29 U9-22 U10-1 U10-2 U1-16 U1-53)
     )
     (net /VCC33
-      (pins C5-2 C3-2 C4-1 C6-1 C7-1 C8-1 C9-1 C10-1 C11-1 C12-1 C13-1 C14-1 C15-1
-        C16-1 C17-1 J1-4 U6-21 U6-6 U6-1 U7-1 U7-6 U7-21 U8-21 U8-6 U8-1 R1-1 R2-1
+      (pins C4-2 C2-2 C3-1 C5-1 C6-1 C7-1 C8-1 C9-1 C10-1 C11-1 C12-1 C13-1 C14-1
+        C15-1 C16-1 J1-4 U6-21 U6-6 U6-1 U7-1 U7-6 U7-21 U8-21 U8-6 U8-1 R1-1 R2-1
         R3-1 U3-3 U3-15 U3-23 U3-35 U9-21 U9-6 U9-1 U10-5 U10-6 U10-7)
     )
     (net /TCK
@@ -1017,31 +1018,23 @@
     (net "Net-(U10-Pad8)"
       (pins U10-8)
     )
-    (class kicad_default "" "/A500 FastRAM Page 2/DRAM_RAS0" "/A500 FastRAM Page 2/DRAM_RAS1"
-      "/A500 FastRAM Page 2/DRAM_RAS2" "/A500 FastRAM Page 2/DRAM_RAS3" /CPU_A1
-      /CPU_A10 /CPU_A11 /CPU_A12 /CPU_A13 /CPU_A14 /CPU_A15 /CPU_A16 /CPU_A17
-      /CPU_A18 /CPU_A19 /CPU_A2 /CPU_A20 /CPU_A21 /CPU_A22 /CPU_A23 /CPU_A3
-      /CPU_A4 /CPU_A5 /CPU_A6 /CPU_A7 /CPU_A8 /CPU_A9 /CPU_AS /CPU_BERR /CPU_BG
-      /CPU_BGACK /CPU_BR /CPU_CLK /CPU_D0 /CPU_D1 /CPU_D10 /CPU_D11 /CPU_D12
-      /CPU_D13 /CPU_D14 /CPU_D15 /CPU_D2 /CPU_D3 /CPU_D4 /CPU_D5 /CPU_D6 /CPU_D7
-      /CPU_D8 /CPU_D9 /CPU_DTACK /CPU_E /CPU_FC0 /CPU_FC1 /CPU_FC2 /CPU_HALT
-      /CPU_IPL0 /CPU_IPL1 /CPU_IPL2 /CPU_LDS /CPU_RESET /CPU_RW /CPU_UDS /CPU_VMA
-      /CPU_VPA /DRAM_A0 /DRAM_A1 /DRAM_A2 /DRAM_A3 /DRAM_A4 /DRAM_A5 /DRAM_A6
-      /DRAM_A7 /DRAM_A8 /DRAM_A9 /DRAM_LCAS /DRAM_MA0 /DRAM_MA1 /DRAM_MA2
-      /DRAM_MA3 /DRAM_MA4 /DRAM_MA5 /DRAM_MA6 /DRAM_MA7 /DRAM_MA8 /DRAM_MA9
-      /DRAM_RAS0 /DRAM_RAS1 /DRAM_RAS2 /DRAM_RAS3 /DRAM_UCAS /MUX_SWITCH /TCK
-      /TDI /TDO /TMS /VCC33 GND "Net-(J1-Pad6)" "Net-(J1-Pad7)" "Net-(J1-Pad8)"
-      "Net-(U10-Pad8)" "Net-(U2-Pad10)" "Net-(U2-Pad11)" "Net-(U2-Pad12)"
-      "Net-(U2-Pad13)" "Net-(U2-Pad17)" "Net-(U2-Pad19)" "Net-(U2-Pad20)"
-      "Net-(U2-Pad21)" "Net-(U2-Pad22)" "Net-(U2-Pad23)" "Net-(U2-Pad24)"
-      "Net-(U2-Pad25)" "Net-(U2-Pad26)" "Net-(U2-Pad27)" "Net-(U2-Pad28)"
-      "Net-(U5-Pad11)" "Net-(U5-Pad12)" "Net-(U5-Pad15)" "Net-(U5-Pad16)"
-      "Net-(U5-Pad32)" "Net-(U6-Pad11)" "Net-(U6-Pad12)" "Net-(U6-Pad15)"
-      "Net-(U6-Pad16)" "Net-(U6-Pad32)" "Net-(U7-Pad11)" "Net-(U7-Pad12)"
-      "Net-(U7-Pad15)" "Net-(U7-Pad16)" "Net-(U7-Pad32)" "Net-(U8-Pad11)"
-      "Net-(U8-Pad12)" "Net-(U8-Pad15)" "Net-(U8-Pad16)" "Net-(U8-Pad32)"
-      "Net-(U9-Pad11)" "Net-(U9-Pad12)" "Net-(U9-Pad15)" "Net-(U9-Pad16)"
-      "Net-(U9-Pad32)" "Net-(U9-Pad8)" VCC
+    (class kicad_default "" /CPU_A1 /CPU_A10 /CPU_A11 /CPU_A12 /CPU_A13 /CPU_A14
+      /CPU_A15 /CPU_A16 /CPU_A17 /CPU_A18 /CPU_A19 /CPU_A2 /CPU_A20 /CPU_A21
+      /CPU_A22 /CPU_A23 /CPU_A3 /CPU_A4 /CPU_A5 /CPU_A6 /CPU_A7 /CPU_A8 /CPU_A9
+      /CPU_AS /CPU_BERR /CPU_BG /CPU_BGACK /CPU_BR /CPU_CLK /CPU_D0 /CPU_D1
+      /CPU_D10 /CPU_D11 /CPU_D12 /CPU_D13 /CPU_D14 /CPU_D15 /CPU_D2 /CPU_D3
+      /CPU_D4 /CPU_D5 /CPU_D6 /CPU_D7 /CPU_D8 /CPU_D9 /CPU_DTACK /CPU_E /CPU_FC0
+      /CPU_FC1 /CPU_FC2 /CPU_HALT /CPU_IPL0 /CPU_IPL1 /CPU_IPL2 /CPU_LDS /CPU_RESET
+      /CPU_RW /CPU_UDS /CPU_VMA /CPU_VPA /DRAM_A0 /DRAM_A1 /DRAM_A2 /DRAM_A3
+      /DRAM_A4 /DRAM_A5 /DRAM_A6 /DRAM_A7 /DRAM_A8 /DRAM_A9 /DRAM_LCAS /DRAM_RAS0
+      /DRAM_RAS1 /DRAM_RAS2 /DRAM_RAS3 /DRAM_UCAS /MUX_SWITCH /TCK /TDI /TDO
+      /TMS /VCC33 GND "Net-(J1-Pad6)" "Net-(J1-Pad7)" "Net-(J1-Pad8)" "Net-(U10-Pad8)"
+      "Net-(U6-Pad11)" "Net-(U6-Pad12)" "Net-(U6-Pad15)" "Net-(U6-Pad16)"
+      "Net-(U6-Pad32)" "Net-(U7-Pad11)" "Net-(U7-Pad12)" "Net-(U7-Pad15)"
+      "Net-(U7-Pad16)" "Net-(U7-Pad32)" "Net-(U8-Pad11)" "Net-(U8-Pad12)"
+      "Net-(U8-Pad15)" "Net-(U8-Pad16)" "Net-(U8-Pad32)" "Net-(U9-Pad11)"
+      "Net-(U9-Pad12)" "Net-(U9-Pad15)" "Net-(U9-Pad16)" "Net-(U9-Pad32)"
+      VCC
       (circuit
         (use_via Via[0-1]_800:400_um)
       )

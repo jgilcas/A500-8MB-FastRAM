@@ -281,10 +281,10 @@ Text Notes 8250 7650 0    50   ~ 0
 Text Notes 10650 7650 0    50   ~ 0
 0
 $Comp
-L Device:C_Small C5
+L Device:C_Small C4
 U 1 1 5CDE9EC9
 P 7700 800
-F 0 "C5" V 7471 800 50  0000 C CNN
+F 0 "C4" V 7471 800 50  0000 C CNN
 F 1 "0.1uF" V 7562 800 50  0000 C CNN
 F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 7700 800 50  0001 C CNN
 F 3 "~" H 7700 800 50  0001 C CNN
@@ -298,10 +298,10 @@ CPU_AS
 Text Label 7600 3000 3    50   ~ 0
 GND
 $Comp
-L Device:C_Small C4
+L Device:C_Small C3
 U 1 1 5CDEB850
 P 7600 3550
-F 0 "C4" V 7750 3550 50  0000 C CNN
+F 0 "C3" V 7750 3550 50  0000 C CNN
 F 1 "0.1uF" V 7850 3550 50  0000 C CNN
 F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 7600 3550 50  0001 C CNN
 F 3 "~" H 7600 3550 50  0001 C CNN
@@ -591,10 +591,10 @@ CPU_DTACK
 Text Label 1000 6400 2    50   ~ 0
 CPU_HALT
 $Comp
-L Device:C_Small C3
+L Device:C_Small C2
 U 1 1 5CDECFF4
 P 6300 2250
-F 0 "C3" H 6100 2300 50  0000 L CNN
+F 0 "C2" H 6100 2300 50  0000 L CNN
 F 1 "0.1uF" H 6000 2200 50  0000 L CNN
 F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 6300 2250 50  0001 C CNN
 F 3 "~" H 6300 2250 50  0001 C CNN
