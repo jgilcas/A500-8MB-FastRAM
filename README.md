@@ -1,6 +1,6 @@
 # A500-8MB-FastRAM
 
-![A500 8MB FastRAM Board](A500%20FastRAM%20Orth2.png?raw=true "A500 8MB FastRAM Board")
+![A500 8MB FastRAM Board](A500%20FastRAM%20Orth0.png?raw=true "A500 8MB FastRAM Board")
 
 8MB FastRAM Board for the Amiga 500 &amp; Amiga 500+
 
