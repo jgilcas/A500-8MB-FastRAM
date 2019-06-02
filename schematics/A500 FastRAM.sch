@@ -20,7 +20,7 @@ U 1 1 5CCC9A28
 P 1600 1300
 F 0 "U4" H 1600 550 50  0000 C CNN
 F 1 "74157" H 1600 650 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 1600 1300 50  0001 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 1600 1300 50  0001 C CNN
 F 3 "" H 1600 1300 50  0001 C CNN
 	1    1600 1300
 	1    0    0    -1  
@@ -31,102 +31,11 @@ U 1 1 5CCCA900
 P 3550 1300
 F 0 "U5" H 3550 550 50  0000 C CNN
 F 1 "74157" H 3550 650 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 3550 1300 50  0001 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 3550 1300 50  0001 C CNN
 F 3 "" H 3550 1300 50  0001 C CNN
 	1    3550 1300
 	1    0    0    -1  
 $EndComp
-$Comp
-L CPU_NXP_68000:68000D U2
-U 1 1 5CCD37BD
-P 4950 5200
-F 0 "U2" H 4950 7000 50  0000 C CNN
-F 1 "68000 Socket" H 4950 6850 50  0000 C CNN
-F 2 "Package_DIP:DIP-64_W25.4mm_Socket_LongPads" H 4950 5200 50  0001 C CNN
-F 3 "https://www.nxp.com/docs/en/reference-manual/MC68000UM.pdf" H 4950 5200 50  0001 C CNN
-	1    4950 5200
-	1    0    0    -1  
-$EndComp
-Text Label 3950 3000 2    50   ~ 0
-CPU_CLK
-Text Label 5950 3000 0    50   ~ 0
-CPU_A1
-Text Label 5950 3100 0    50   ~ 0
-CPU_A2
-Text Label 5950 3200 0    50   ~ 0
-CPU_A3
-Text Label 5950 3300 0    50   ~ 0
-CPU_A4
-Text Label 5950 3400 0    50   ~ 0
-CPU_A5
-Text Label 5950 3500 0    50   ~ 0
-CPU_A6
-Text Label 5950 3600 0    50   ~ 0
-CPU_A7
-Text Label 5950 3700 0    50   ~ 0
-CPU_A8
-Text Label 5950 3800 0    50   ~ 0
-CPU_A9
-Text Label 5950 3900 0    50   ~ 0
-CPU_A10
-Text Label 5950 4000 0    50   ~ 0
-CPU_A11
-Text Label 5950 4100 0    50   ~ 0
-CPU_A12
-Text Label 5950 4200 0    50   ~ 0
-CPU_A13
-Text Label 5950 4300 0    50   ~ 0
-CPU_A14
-Text Label 5950 4400 0    50   ~ 0
-CPU_A15
-Text Label 5950 4500 0    50   ~ 0
-CPU_A16
-Text Label 5950 4600 0    50   ~ 0
-CPU_A17
-Text Label 5950 4700 0    50   ~ 0
-CPU_A18
-Text Label 5950 4800 0    50   ~ 0
-CPU_A19
-Text Label 5950 4900 0    50   ~ 0
-CPU_A20
-Text Label 5950 5000 0    50   ~ 0
-CPU_A21
-Text Label 5950 5100 0    50   ~ 0
-CPU_A22
-Text Label 5950 5200 0    50   ~ 0
-CPU_A23
-Text Label 5950 5400 0    50   ~ 0
-CPU_D0
-Text Label 5950 5500 0    50   ~ 0
-CPU_D1
-Text Label 5950 5600 0    50   ~ 0
-CPU_D2
-Text Label 5950 5700 0    50   ~ 0
-CPU_D3
-Text Label 5950 5800 0    50   ~ 0
-CPU_D4
-Text Label 5950 5900 0    50   ~ 0
-CPU_D5
-Text Label 5950 6000 0    50   ~ 0
-CPU_D6
-Text Label 5950 6100 0    50   ~ 0
-CPU_D7
-Text Label 5950 6200 0    50   ~ 0
-CPU_D8
-Text Label 5950 6300 0    50   ~ 0
-CPU_D9
-Text Label 5950 6400 0    50   ~ 0
-CPU_D10
-Text Label 5950 6500 0    50   ~ 0
-CPU_D11
-Text Label 5950 6600 0    50   ~ 0
-CPU_D12
-Text Label 5950 6700 0    50   ~ 0
-CPU_D13
-Text Label 5950 6800 0    50   ~ 0
-CPU_D14
-Text Label 5950 6900 0    50   ~ 0
-CPU_D15
 Text Label 7700 1350 1    50   ~ 0
 CPU_RESET
 Text Label 7800 1350 1    50   ~ 0
@@ -193,17 +102,6 @@ Text Label 6750 2650 2    50   ~ 0
 CPU_A21
 Text Label 6750 2750 2    50   ~ 0
 CPU_A20
-$Comp
-L A500_Parts:ATF1502ASV-15JU44 U3
-U 1 1 5CCCF868
-P 7900 1750
-F 0 "U3" H 7700 1350 50  0000 L CNN
-F 1 "ATF1502ASV-15JU44" H 7400 1250 50  0000 L CNN
-F 2 "Package_LCC:PLCC-44_THT-Socket" H 7750 1350 50  0001 C CNN
-F 3 "" H 7750 1350 50  0001 C CNN
-	1    7900 1750
-	1    0    0    -1  
-$EndComp
 Text Label 1050 900  2    50   ~ 0
 GND
 Text Label 1050 1000 2    50   ~ 0
@@ -244,38 +142,30 @@ Text Label 3000 1750 2    50   ~ 0
 CPU_A9
 Text Label 3000 1850 2    50   ~ 0
 CPU_A12
-Text Label 4950 2800 1    50   ~ 0
+Text Label 4900 2550 1    50   ~ 0
 VCC
-Text Label 5050 2800 1    50   ~ 0
+Text Label 5100 2550 1    50   ~ 0
 VCC
 Text Label 7500 1350 1    50   ~ 0
 VCC33
 Text Label 7700 3000 3    50   ~ 0
 VCC33
-Text Label 5050 7600 3    50   ~ 0
-GND
-Text Label 4950 7600 3    50   ~ 0
-GND
 $Comp
 L Device:C_Small C1
 U 1 1 5CD38842
-P 5150 2450
-F 0 "C1" V 5379 2450 50  0000 C CNN
-F 1 "0.1uF" V 5288 2450 50  0000 C CNN
-F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 5150 2450 50  0001 C CNN
-F 3 "~" H 5150 2450 50  0001 C CNN
-	1    5150 2450
+P 5200 2200
+F 0 "C1" V 5429 2200 50  0000 C CNN
+F 1 "0.1uF" V 5338 2200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5200 2200 50  0001 C CNN
+F 3 "~" H 5200 2200 50  0001 C CNN
+	1    5200 2200
 	0    -1   -1   0   
 $EndComp
-Text Label 5250 2450 0    50   ~ 0
+Text Label 5300 2200 0    50   ~ 0
 GND
 Wire Wire Line
-	5050 2800 5050 2450
-Wire Wire Line
-	4950 2800 4950 2450
-Wire Wire Line
-	4950 2450 5050 2450
-Connection ~ 5050 2450
+	5100 2550 5100 2200
+Connection ~ 5100 2200
 Text Notes 8250 7650 0    50   ~ 0
 2019-05-03
 Text Notes 10650 7650 0    50   ~ 0
@@ -286,7 +176,7 @@ U 1 1 5CDE9EC9
 P 7700 800
 F 0 "C4" V 7471 800 50  0000 C CNN
 F 1 "0.1uF" V 7562 800 50  0000 C CNN
-F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 7700 800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7700 800 50  0001 C CNN
 F 3 "~" H 7700 800 50  0001 C CNN
 	1    7700 800 
 	0    1    1    0   
@@ -303,7 +193,7 @@ U 1 1 5CDEB850
 P 7600 3550
 F 0 "C3" V 7750 3550 50  0000 C CNN
 F 1 "0.1uF" V 7850 3550 50  0000 C CNN
-F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 7600 3550 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7600 3550 50  0001 C CNN
 F 3 "~" H 7600 3550 50  0001 C CNN
 	1    7600 3550
 	0    1    1    0   
@@ -346,27 +236,6 @@ Text Label 2150 1400 0    50   ~ 0
 DRAM_A3
 Text Label 2150 1200 0    50   ~ 0
 DRAM_A2
-Text Label 5950 7100 0    50   ~ 0
-CPU_AS
-Text Label 5950 7200 0    50   ~ 0
-CPU_UDS
-Text Label 5950 7300 0    50   ~ 0
-CPU_LDS
-Text Label 5950 7400 0    50   ~ 0
-CPU_RW
-Text Label 3950 6500 2    50   ~ 0
-CPU_RESET
-$Comp
-L A500_Parts:TPS7333QP U10
-U 1 1 5CD3BEB1
-P 5500 1050
-F 0 "U10" H 5500 1450 50  0000 C CNN
-F 1 "TPS7333QP" H 5500 1350 50  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm" H 5500 1050 50  0001 C CNN
-F 3 "" H 5500 1050 50  0001 C CNN
-	1    5500 1050
-	1    0    0    -1  
-$EndComp
 Text Label 5900 1200 0    50   ~ 0
 VCC33
 Text Label 5900 1100 0    50   ~ 0
@@ -406,7 +275,7 @@ U 1 1 5CD413A4
 P 4800 1050
 F 0 "C18" V 5029 1050 50  0000 C CNN
 F 1 "0.1uF" V 4938 1050 50  0000 C CNN
-F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 4800 1050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4800 1050 50  0001 C CNN
 F 3 "~" H 4800 1050 50  0001 C CNN
 	1    4800 1050
 	-1   0    0    1   
@@ -421,174 +290,144 @@ Wire Wire Line
 Wire Wire Line
 	4800 1200 4800 1150
 Connection ~ 4900 1200
-Text Label 3950 3300 2    50   ~ 0
-CPU_IPL0
-Text Label 3950 3400 2    50   ~ 0
-CPU_IPL1
-Text Label 3950 3500 2    50   ~ 0
-CPU_IPL2
-Text Label 3950 3700 2    50   ~ 0
-CPU_BGACK
-Text Label 3950 3800 2    50   ~ 0
-CPU_BG
-Text Label 3950 3900 2    50   ~ 0
-CPU_BR
-Text Label 3950 4200 2    50   ~ 0
-CPU_FC0
-Text Label 3950 4300 2    50   ~ 0
-CPU_FC1
-Text Label 3950 4400 2    50   ~ 0
-CPU_FC2
-Text Label 3950 4700 2    50   ~ 0
-CPU_VMA
-Text Label 3950 4800 2    50   ~ 0
-CPU_E
-Text Label 3950 4900 2    50   ~ 0
-CPU_VPA
-Text Label 3950 5800 2    50   ~ 0
-CPU_BERR
-Text Label 3950 6000 2    50   ~ 0
-CPU_DTACK
-Text Label 3950 6400 2    50   ~ 0
-CPU_HALT
 $Comp
 L CPU_NXP_68000:68000D U1
 U 1 1 5CD84B2C
-P 2000 5200
-F 0 "U1" H 2000 7000 50  0000 C CNN
-F 1 "68000 Boardside" H 2000 6850 50  0000 C CNN
-F 2 "Package_DIP:DIP-64_W25.4mm_SIL_Headers" H 2000 5200 50  0001 C CNN
-F 3 "https://www.nxp.com/docs/en/reference-manual/MC68000UM.pdf" H 2000 5200 50  0001 C CNN
-	1    2000 5200
+P 2000 5150
+F 0 "U1" H 2000 6950 50  0000 C CNN
+F 1 "68000 Boardside" H 2000 6800 50  0000 C CNN
+F 2 "Package_DIP:DIP-64_W25.4mm_SIL_Headers" H 2000 5150 50  0001 C CNN
+F 3 "https://www.nxp.com/docs/en/reference-manual/MC68000UM.pdf" H 2000 5150 50  0001 C CNN
+	1    2000 5150
 	1    0    0    -1  
 $EndComp
-Text Label 1000 3000 2    50   ~ 0
+Text Label 1000 2950 2    50   ~ 0
 CPU_CLK
-Text Label 3000 3000 0    50   ~ 0
+Text Label 3000 2950 0    50   ~ 0
 CPU_A1
-Text Label 3000 3100 0    50   ~ 0
+Text Label 3000 3050 0    50   ~ 0
 CPU_A2
-Text Label 3000 3200 0    50   ~ 0
+Text Label 3000 3150 0    50   ~ 0
 CPU_A3
-Text Label 3000 3300 0    50   ~ 0
+Text Label 3000 3250 0    50   ~ 0
 CPU_A4
-Text Label 3000 3400 0    50   ~ 0
+Text Label 3000 3350 0    50   ~ 0
 CPU_A5
-Text Label 3000 3500 0    50   ~ 0
+Text Label 3000 3450 0    50   ~ 0
 CPU_A6
-Text Label 3000 3600 0    50   ~ 0
+Text Label 3000 3550 0    50   ~ 0
 CPU_A7
-Text Label 3000 3700 0    50   ~ 0
+Text Label 3000 3650 0    50   ~ 0
 CPU_A8
-Text Label 3000 3800 0    50   ~ 0
+Text Label 3000 3750 0    50   ~ 0
 CPU_A9
-Text Label 3000 3900 0    50   ~ 0
+Text Label 3000 3850 0    50   ~ 0
 CPU_A10
-Text Label 3000 4000 0    50   ~ 0
+Text Label 3000 3950 0    50   ~ 0
 CPU_A11
-Text Label 3000 4100 0    50   ~ 0
+Text Label 3000 4050 0    50   ~ 0
 CPU_A12
-Text Label 3000 4200 0    50   ~ 0
+Text Label 3000 4150 0    50   ~ 0
 CPU_A13
-Text Label 3000 4300 0    50   ~ 0
+Text Label 3000 4250 0    50   ~ 0
 CPU_A14
-Text Label 3000 4400 0    50   ~ 0
+Text Label 3000 4350 0    50   ~ 0
 CPU_A15
-Text Label 3000 4500 0    50   ~ 0
+Text Label 3000 4450 0    50   ~ 0
 CPU_A16
-Text Label 3000 4600 0    50   ~ 0
+Text Label 3000 4550 0    50   ~ 0
 CPU_A17
-Text Label 3000 4700 0    50   ~ 0
+Text Label 3000 4650 0    50   ~ 0
 CPU_A18
-Text Label 3000 4800 0    50   ~ 0
+Text Label 3000 4750 0    50   ~ 0
 CPU_A19
-Text Label 3000 4900 0    50   ~ 0
+Text Label 3000 4850 0    50   ~ 0
 CPU_A20
-Text Label 3000 5000 0    50   ~ 0
+Text Label 3000 4950 0    50   ~ 0
 CPU_A21
-Text Label 3000 5100 0    50   ~ 0
+Text Label 3000 5050 0    50   ~ 0
 CPU_A22
-Text Label 3000 5200 0    50   ~ 0
+Text Label 3000 5150 0    50   ~ 0
 CPU_A23
-Text Label 3000 5400 0    50   ~ 0
+Text Label 3000 5350 0    50   ~ 0
 CPU_D0
-Text Label 3000 5500 0    50   ~ 0
+Text Label 3000 5450 0    50   ~ 0
 CPU_D1
-Text Label 3000 5600 0    50   ~ 0
+Text Label 3000 5550 0    50   ~ 0
 CPU_D2
-Text Label 3000 5700 0    50   ~ 0
+Text Label 3000 5650 0    50   ~ 0
 CPU_D3
-Text Label 3000 5800 0    50   ~ 0
+Text Label 3000 5750 0    50   ~ 0
 CPU_D4
-Text Label 3000 5900 0    50   ~ 0
+Text Label 3000 5850 0    50   ~ 0
 CPU_D5
-Text Label 3000 6000 0    50   ~ 0
+Text Label 3000 5950 0    50   ~ 0
 CPU_D6
-Text Label 3000 6100 0    50   ~ 0
+Text Label 3000 6050 0    50   ~ 0
 CPU_D7
-Text Label 3000 6200 0    50   ~ 0
+Text Label 3000 6150 0    50   ~ 0
 CPU_D8
-Text Label 3000 6300 0    50   ~ 0
+Text Label 3000 6250 0    50   ~ 0
 CPU_D9
-Text Label 3000 6400 0    50   ~ 0
+Text Label 3000 6350 0    50   ~ 0
 CPU_D10
-Text Label 3000 6500 0    50   ~ 0
+Text Label 3000 6450 0    50   ~ 0
 CPU_D11
-Text Label 3000 6600 0    50   ~ 0
+Text Label 3000 6550 0    50   ~ 0
 CPU_D12
-Text Label 3000 6700 0    50   ~ 0
+Text Label 3000 6650 0    50   ~ 0
 CPU_D13
-Text Label 3000 6800 0    50   ~ 0
+Text Label 3000 6750 0    50   ~ 0
 CPU_D14
-Text Label 3000 6900 0    50   ~ 0
+Text Label 3000 6850 0    50   ~ 0
 CPU_D15
-Text Label 2000 2800 1    50   ~ 0
+Text Label 2000 2750 1    50   ~ 0
 VCC
-Text Label 2100 2800 1    50   ~ 0
+Text Label 2100 2750 1    50   ~ 0
 VCC
-Text Label 2100 7600 3    50   ~ 0
+Text Label 2100 7550 3    50   ~ 0
 GND
-Text Label 2000 7600 3    50   ~ 0
+Text Label 2000 7550 3    50   ~ 0
 GND
-Text Label 3000 7100 0    50   ~ 0
+Text Label 3000 7050 0    50   ~ 0
 CPU_AS
-Text Label 3000 7200 0    50   ~ 0
+Text Label 3000 7150 0    50   ~ 0
 CPU_UDS
-Text Label 3000 7300 0    50   ~ 0
+Text Label 3000 7250 0    50   ~ 0
 CPU_LDS
-Text Label 3000 7400 0    50   ~ 0
+Text Label 3000 7350 0    50   ~ 0
 CPU_RW
-Text Label 1000 6500 2    50   ~ 0
+Text Label 1000 6450 2    50   ~ 0
 CPU_RESET
-Text Label 1000 3300 2    50   ~ 0
+Text Label 1000 3250 2    50   ~ 0
 CPU_IPL0
-Text Label 1000 3400 2    50   ~ 0
+Text Label 1000 3350 2    50   ~ 0
 CPU_IPL1
-Text Label 1000 3500 2    50   ~ 0
+Text Label 1000 3450 2    50   ~ 0
 CPU_IPL2
-Text Label 1000 3700 2    50   ~ 0
+Text Label 1000 3650 2    50   ~ 0
 CPU_BGACK
-Text Label 1000 3800 2    50   ~ 0
+Text Label 1000 3750 2    50   ~ 0
 CPU_BG
-Text Label 1000 3900 2    50   ~ 0
+Text Label 1000 3850 2    50   ~ 0
 CPU_BR
-Text Label 1000 4200 2    50   ~ 0
+Text Label 1000 4150 2    50   ~ 0
 CPU_FC0
-Text Label 1000 4300 2    50   ~ 0
+Text Label 1000 4250 2    50   ~ 0
 CPU_FC1
-Text Label 1000 4400 2    50   ~ 0
+Text Label 1000 4350 2    50   ~ 0
 CPU_FC2
-Text Label 1000 4700 2    50   ~ 0
+Text Label 1000 4650 2    50   ~ 0
 CPU_VMA
-Text Label 1000 4800 2    50   ~ 0
+Text Label 1000 4750 2    50   ~ 0
 CPU_E
-Text Label 1000 4900 2    50   ~ 0
+Text Label 1000 4850 2    50   ~ 0
 CPU_VPA
-Text Label 1000 5800 2    50   ~ 0
+Text Label 1000 5750 2    50   ~ 0
 CPU_BERR
-Text Label 1000 6000 2    50   ~ 0
+Text Label 1000 5950 2    50   ~ 0
 CPU_DTACK
-Text Label 1000 6400 2    50   ~ 0
+Text Label 1000 6350 2    50   ~ 0
 CPU_HALT
 $Comp
 L Device:C_Small C2
@@ -596,7 +435,7 @@ U 1 1 5CDECFF4
 P 6300 2250
 F 0 "C2" H 6100 2300 50  0000 L CNN
 F 1 "0.1uF" H 6000 2200 50  0000 L CNN
-F 2 "Capacitor_THT:C_Axial_L3.8mm_D2.6mm_P7.50mm_Horizontal" H 6300 2250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 6300 2250 50  0001 C CNN
 F 3 "~" H 6300 2250 50  0001 C CNN
 	1    6300 2250
 	1    0    0    -1  
@@ -633,15 +472,9 @@ Wire Wire Line
 	10650 1400 10650 1150
 Wire Wire Line
 	10150 1400 10650 1400
-Wire Wire Line
-	10350 1300 10350 1150
-Wire Wire Line
-	10150 1300 10350 1300
 Text Label 10950 850  1    50   ~ 0
 VCC33
 Text Label 10650 850  1    50   ~ 0
-VCC33
-Text Label 10350 850  1    50   ~ 0
 VCC33
 $Comp
 L Device:R R3
@@ -649,7 +482,7 @@ U 1 1 5CDDF417
 P 10950 1000
 F 0 "R3" H 11020 1046 50  0000 L CNN
 F 1 "10k" H 11020 955 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 10880 1000 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 10880 1000 50  0001 C CNN
 F 3 "~" H 10950 1000 50  0001 C CNN
 	1    10950 1000
 	1    0    0    -1  
@@ -660,45 +493,21 @@ U 1 1 5CDDF24C
 P 10650 1000
 F 0 "R2" H 10720 1046 50  0000 L CNN
 F 1 "10k" H 10720 955 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 10580 1000 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 10580 1000 50  0001 C CNN
 F 3 "~" H 10650 1000 50  0001 C CNN
 	1    10650 1000
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R R1
-U 1 1 5CDDEBA9
-P 10350 1000
-F 0 "R1" H 10420 1046 50  0000 L CNN
-F 1 "10k" H 10420 955 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 10280 1000 50  0001 C CNN
-F 3 "~" H 10350 1000 50  0001 C CNN
-	1    10350 1000
-	1    0    0    -1  
-$EndComp
-Text Label 9650 2100 3    50   ~ 0
-GND
 Text Label 10150 1700 0    50   ~ 0
+GND
+Text Label 10150 1800 0    50   ~ 0
 VCC33
 Text Label 10150 1600 0    50   ~ 0
-TDI
+TCK
 Text Label 10150 1500 0    50   ~ 0
 TDO
 Text Label 10150 1400 0    50   ~ 0
-TMS
-Text Label 10150 1300 0    50   ~ 0
-TCK
-$Comp
-L Connector:Microsemi_FlashPro-JTAG-10 J1
-U 1 1 5CDDC8F7
-P 9650 1500
-F 0 "J1" H 9850 2050 50  0000 R CNN
-F 1 "Microsemi_FlashPro-JTAG-10" V 9250 2050 50  0000 R CNN
-F 2 "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical" V 9500 1650 50  0001 C CNN
-F 3 "https://www.microsemi.com/document-portal/doc_view/129973-lpf-ac386-an" H 8375 950 50  0001 C CNN
-	1    9650 1500
-	1    0    0    -1  
-$EndComp
+TDI
 Text Label 10900 2900 0    50   ~ 0
 VCC33
 Text Label 10900 2800 0    50   ~ 0
@@ -880,4 +689,204 @@ F34 "DRAM_RAS3" I L 9600 6200 50
 F35 "GND" I R 10800 2800 50 
 F36 "VCC33" I R 10800 2900 50 
 $EndSheet
+$Comp
+L CPU_NXP_68000:MC68000FN U2
+U 1 1 5CF07923
+P 5000 5150
+F 0 "U2" H 5000 7100 50  0000 C CNN
+F 1 "MC68000FN" H 5000 6950 50  0000 C CNN
+F 2 "Package_LCC:PLCC-68_THT-Socket" H 4250 7400 50  0001 C CNN
+F 3 "http://www.nxp.com/files/32bit/doc/ref_manual/MC68000UM.pdf" H 5000 5150 50  0001 C CNN
+	1    5000 5150
+	1    0    0    -1  
+$EndComp
+Text Label 6000 2950 0    50   ~ 0
+CPU_A1
+Text Label 6000 3050 0    50   ~ 0
+CPU_A2
+Text Label 6000 3150 0    50   ~ 0
+CPU_A3
+Text Label 6000 3250 0    50   ~ 0
+CPU_A4
+Text Label 6000 3350 0    50   ~ 0
+CPU_A5
+Text Label 6000 3450 0    50   ~ 0
+CPU_A6
+Text Label 6000 3550 0    50   ~ 0
+CPU_A7
+Text Label 6000 3650 0    50   ~ 0
+CPU_A8
+Text Label 6000 3750 0    50   ~ 0
+CPU_A9
+Text Label 6000 3850 0    50   ~ 0
+CPU_A10
+Text Label 6000 3950 0    50   ~ 0
+CPU_A11
+Text Label 6000 4050 0    50   ~ 0
+CPU_A12
+Text Label 6000 4150 0    50   ~ 0
+CPU_A13
+Text Label 6000 4250 0    50   ~ 0
+CPU_A14
+Text Label 6000 4350 0    50   ~ 0
+CPU_A15
+Text Label 6000 4450 0    50   ~ 0
+CPU_A16
+Text Label 6000 4550 0    50   ~ 0
+CPU_A17
+Text Label 6000 4650 0    50   ~ 0
+CPU_A18
+Text Label 6000 4750 0    50   ~ 0
+CPU_A19
+Text Label 6000 4850 0    50   ~ 0
+CPU_A20
+Text Label 6000 4950 0    50   ~ 0
+CPU_A21
+Text Label 6000 5050 0    50   ~ 0
+CPU_A22
+Text Label 6000 5150 0    50   ~ 0
+CPU_A23
+Text Label 6000 5350 0    50   ~ 0
+CPU_D0
+Text Label 6000 5450 0    50   ~ 0
+CPU_D1
+Text Label 6000 5550 0    50   ~ 0
+CPU_D2
+Text Label 6000 5650 0    50   ~ 0
+CPU_D3
+Text Label 6000 5750 0    50   ~ 0
+CPU_D4
+Text Label 6000 5850 0    50   ~ 0
+CPU_D5
+Text Label 6000 5950 0    50   ~ 0
+CPU_D6
+Text Label 6000 6050 0    50   ~ 0
+CPU_D7
+Text Label 6000 6150 0    50   ~ 0
+CPU_D8
+Text Label 6000 6250 0    50   ~ 0
+CPU_D9
+Text Label 6000 6350 0    50   ~ 0
+CPU_D10
+Text Label 6000 6450 0    50   ~ 0
+CPU_D11
+Text Label 6000 6550 0    50   ~ 0
+CPU_D12
+Text Label 6000 6650 0    50   ~ 0
+CPU_D13
+Text Label 6000 6750 0    50   ~ 0
+CPU_D14
+Text Label 6000 6850 0    50   ~ 0
+CPU_D15
+Text Label 6000 7050 0    50   ~ 0
+CPU_AS
+Text Label 6000 7150 0    50   ~ 0
+CPU_UDS
+Text Label 6000 7250 0    50   ~ 0
+CPU_LDS
+Text Label 6000 7350 0    50   ~ 0
+CPU_RW
+Text Label 4000 2950 2    50   ~ 0
+CPU_CLK
+Text Label 4000 6550 2    50   ~ 0
+CPU_RESET
+Text Label 4000 3250 2    50   ~ 0
+CPU_IPL0
+Text Label 4000 3350 2    50   ~ 0
+CPU_IPL1
+Text Label 4000 3450 2    50   ~ 0
+CPU_IPL2
+Text Label 4000 3650 2    50   ~ 0
+CPU_BGACK
+Text Label 4000 3750 2    50   ~ 0
+CPU_BG
+Text Label 4000 3850 2    50   ~ 0
+CPU_BR
+Text Label 4000 4150 2    50   ~ 0
+CPU_FC0
+Text Label 4000 4250 2    50   ~ 0
+CPU_FC1
+Text Label 4000 4350 2    50   ~ 0
+CPU_FC2
+Text Label 4000 4650 2    50   ~ 0
+CPU_VMA
+Text Label 4000 4750 2    50   ~ 0
+CPU_E
+Text Label 4000 4850 2    50   ~ 0
+CPU_VPA
+Text Label 4000 5650 2    50   ~ 0
+CPU_BERR
+Text Label 4000 5850 2    50   ~ 0
+CPU_DTACK
+Text Label 4000 6350 2    50   ~ 0
+CPU_HALT
+Wire Wire Line
+	4800 7750 4900 7750
+Wire Wire Line
+	4900 7750 5100 7750
+Connection ~ 4900 7750
+Wire Wire Line
+	5100 7750 5200 7750
+Connection ~ 5100 7750
+Wire Wire Line
+	5200 7750 5400 7750
+Connection ~ 5200 7750
+Text Label 5400 7750 0    50   ~ 0
+GND
+Wire Wire Line
+	4900 2200 4900 2550
+Wire Wire Line
+	4900 2200 5100 2200
+$Comp
+L A500_Parts:TPS7333QD U10
+U 1 1 5CF4E7E2
+P 5500 1050
+F 0 "U10" H 5500 1465 50  0000 C CNN
+F 1 "TPS7333QD" H 5500 1374 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5500 1373 50  0001 C CNN
+F 3 "" H 5400 1100 50  0001 C CNN
+	1    5500 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L A500_Parts:ATF1502AS-7AX44 U3
+U 1 1 5CF1B3F2
+P 7900 1750
+F 0 "U3" H 7700 1400 50  0000 L CNN
+F 1 "ATF1502AS-7AX44" H 7400 1300 50  0000 L CNN
+F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 7750 1350 50  0001 C CNN
+F 3 "https://www.mouser.co.uk/datasheet/2/268/atmel-0995-cpld-atf1502as(l)-datasheet-1368695.pdf" H 7750 1350 50  0001 C CNN
+	1    7900 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x06_Male J1
+U 1 1 5CF2379C
+P 9950 1500
+F 0 "J1" H 10058 1789 50  0000 C CNN
+F 1 "Conn_01x06_Male" H 10058 1790 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 9950 1500 50  0001 C CNN
+F 3 "~" H 9950 1500 50  0001 C CNN
+	1    9950 1500
+	1    0    0    -1  
+$EndComp
+Text Label 10150 1300 0    50   ~ 0
+TMS
+$Comp
+L Device:R R1
+U 1 1 5CDDEBA9
+P 10350 1000
+F 0 "R1" H 10420 1046 50  0000 L CNN
+F 1 "10k" H 10420 955 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 10280 1000 50  0001 C CNN
+F 3 "~" H 10350 1000 50  0001 C CNN
+	1    10350 1000
+	1    0    0    -1  
+$EndComp
+Text Label 10350 850  1    50   ~ 0
+VCC33
+Wire Wire Line
+	10150 1300 10350 1300
+Wire Wire Line
+	10350 1300 10350 1150
 $EndSCHEMATC
