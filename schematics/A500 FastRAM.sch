@@ -41,7 +41,7 @@ CPU_RESET
 Text Label 7800 1350 1    50   ~ 0
 CPU_UDS
 Text Label 7900 1350 1    50   ~ 0
-CPU_CLK
+CPU_CLK14
 Text Label 7200 1350 1    50   ~ 0
 CPU_D12
 Text Label 8100 1350 1    50   ~ 0
@@ -183,7 +183,7 @@ $EndComp
 Text Label 8000 1350 1    50   ~ 0
 GND
 Text Label 7600 1350 1    50   ~ 0
-CPU_AS
+CPU_AS14
 Text Label 7600 3000 3    50   ~ 0
 GND
 $Comp

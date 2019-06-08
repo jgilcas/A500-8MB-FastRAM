@@ -33,9 +33,8 @@
       )
     )
     (boundary
-      (path pcb 0  185420 -30480  185420 -149860  182880 -152400  118110 -152400
-            115570 -149860  115570 -30480  118110 -27940  182880 -27940
-            185420 -30480)
+      (path pcb 0  166370 -34925  166370 -154305  163830 -156845  99060 -156845
+            96520 -154305  96520 -34925  99060 -32385  163830 -32385  166370 -34925)
     )
     (via "Via[0-3]_600:300_um" "Via[0-3]_800:400_um")
     (rule
@@ -47,88 +46,88 @@
   )
   (placement
     (component "Package_SO_J-Lead:SOJ-42"
-      (place U7 176403 -49276 front 0 (PN IS41LV16100D))
+      (place U7 157353 -53721 front 0 (PN IS41LV16100D))
     )
     (component "Package_SO_J-Lead:SOJ-42::1"
-      (place U8 176403 -77851 front 0 (PN IS41LV16100D))
-      (place U9 176403 -106426 front 0 (PN IS41LV16100D))
-      (place U10 176403 -135001 front 0 (PN IS41LV16100D))
+      (place U8 157353 -82296 front 0 (PN IS41LV16100D))
+      (place U9 157353 -110871 front 0 (PN IS41LV16100D))
+      (place U10 157353 -139446 front 0 (PN IS41LV16100D))
     )
     (component Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder
-      (place C1 152400 -99949 front 90 (PN 0.1uF))
-      (place C2 121920 -31750 front 180 (PN 0.1uF))
-      (place C3 151130 -45720 front 270 (PN 0.1uF))
-      (place C6 166370 -83820 front 90 (PN 0.1uF))
-      (place C9 168275 -46355 front 270 (PN 0.1uF))
-      (place C11 167640 -68580 front 270 (PN 0.1uF))
-      (place C13 167640 -90170 front 90 (PN 0.1uF))
-      (place C15 167640 -103505 front 270 (PN 0.1uF))
-      (place R2 162433 -37020.5 front 90 (PN 10k))
-      (place C20 125095 -131445 front 270 (PN 22pf))
-      (place C23 137795 -107315 front 270 (PN 0.1uF))
-      (place C24 137795 -94615 front 270 (PN 0.1uF))
-      (place C26 161925 -139065 front 270 (PN 0.1uF))
-      (place C28 161925 -112395 front 270 (PN 0.1uF))
-      (place C30 163894 -58610.5 front 270 (PN 0.1uF))
-      (place R6 131445 -131445 front 180 (PN 10k))
+      (place C1 133350 -104394 front 90 (PN 0.1uF))
+      (place C2 102870 -36195 front 180 (PN 0.1uF))
+      (place C3 132080 -50165 front 270 (PN 0.1uF))
+      (place C6 147320 -88265 front 90 (PN 0.1uF))
+      (place C9 149225 -50800 front 270 (PN 0.1uF))
+      (place C11 148590 -73025 front 270 (PN 0.1uF))
+      (place C13 148590 -94615 front 90 (PN 0.1uF))
+      (place C15 148590 -107950 front 270 (PN 0.1uF))
+      (place R2 143383 -41465.5 front 90 (PN 10k))
+      (place C20 106045 -135890 front 270 (PN 22pf))
+      (place C23 118745 -111760 front 270 (PN 0.1uF))
+      (place C24 118745 -99060 front 270 (PN 0.1uF))
+      (place C26 142875 -143510 front 270 (PN 0.1uF))
+      (place C28 142875 -116840 front 270 (PN 0.1uF))
+      (place C30 144844 -63055.5 front 270 (PN 0.1uF))
+      (place R6 112395 -135890 front 180 (PN 10k))
     )
     (component Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder::1
-      (place C4 148590 -82550 front 270 (PN 0.1uF))
-      (place C5 155575 -91440 front 180 (PN 0.1uF))
-      (place C7 157480 -73660 front 180 (PN 0.1uF))
-      (place C8 168275 -40005 front 270 (PN 0.1uF))
-      (place C10 167640 -61595 front 90 (PN 0.1uF))
-      (place C12 167640 -74930 front 270 (PN 0.1uF))
-      (place C14 167640 -97155 front 270 (PN 0.1uF))
-      (place C16 167640 -118745 front 90 (PN 0.1uF))
-      (place C18 167640 -132080 front 270 (PN 0.1uF))
-      (place R1 164973 -37020.5 front 90 (PN 10k))
-      (place R3 157353 -37020.5 front 90 (PN 10k))
-      (place C17 167640 -125730 front 270 (PN 0.1uF))
-      (place C19 167640 -147320 front 270 (PN 0.1uF))
-      (place C21 125095 -142240 front 90 (PN 22pf))
-      (place C22 137795 -119380 front 270 (PN 0.1uF))
-      (place C25 137795 -81915 front 270 (PN 0.1uF))
-      (place C27 161925 -125730 front 270 (PN 0.1uF))
-      (place C29 163894 -46355 front 270 (PN 0.1uF))
-      (place R4 125095 -136525 front 270 (PN 560))
-      (place R5 137795 -141605 front 270 (PN 560))
+      (place C4 129540 -86995 front 270 (PN 0.1uF))
+      (place C5 136525 -95885 front 180 (PN 0.1uF))
+      (place C7 138430 -78105 front 180 (PN 0.1uF))
+      (place C8 149225 -44450 front 270 (PN 0.1uF))
+      (place C10 148590 -66040 front 90 (PN 0.1uF))
+      (place C12 148590 -79375 front 270 (PN 0.1uF))
+      (place C14 148590 -101600 front 270 (PN 0.1uF))
+      (place C16 148590 -123190 front 90 (PN 0.1uF))
+      (place C18 148590 -136525 front 270 (PN 0.1uF))
+      (place R1 145923 -41465.5 front 90 (PN 10k))
+      (place R3 138303 -41465.5 front 90 (PN 10k))
+      (place C17 148590 -130175 front 270 (PN 0.1uF))
+      (place C19 148590 -151765 front 270 (PN 0.1uF))
+      (place C21 106045 -146685 front 90 (PN 22pf))
+      (place C22 118745 -123825 front 270 (PN 0.1uF))
+      (place C25 118745 -86360 front 270 (PN 0.1uF))
+      (place C27 142875 -130175 front 270 (PN 0.1uF))
+      (place C29 144844 -50800 front 270 (PN 0.1uF))
+      (place R4 106045 -140970 front 270 (PN 560))
+      (place R5 118745 -146050 front 270 (PN 560))
     )
     (component Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical
-      (place J1 164846 -33083.5 front 270 (PN Conn_01x06_Male))
+      (place J1 145796 -37528.5 front 270 (PN Conn_01x06_Male))
     )
     (component Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
-      (place J2 153035 -148590 front 90 (PN "Speed Selector"))
+      (place J2 133985 -153035 front 90 (PN "Speed Selector"))
     )
     (component "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-      (place U11 131445 -139065 front 0 (PN 74HC86))
-      (place U12 131445 -121920 front 0 (PN 74HC74))
-      (place U13 131445 -109855 front 0 (PN 74LS27))
+      (place U11 112395 -143510 front 0 (PN 74HC86))
+      (place U12 112395 -126365 front 0 (PN 74HC74))
+      (place U13 112395 -114300 front 0 (PN 74LS27))
     )
     (component "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
-      (place U14 131445 -97155 front 0 (PN 74LS112))
-      (place U18 155575 -114935 front 0 (PN 74LS157))
-      (place U4 158178 -48895 front 0 (PN 74157))
+      (place U14 112395 -101600 front 0 (PN 74LS112))
+      (place U18 136525 -119380 front 0 (PN 74LS157))
+      (place U4 139128 -53340 front 0 (PN 74157))
     )
     (component "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm::1"
-      (place U15 131445 -84455 front 0 (PN 74HC04))
-      (place U16 155575 -140970 front 0 (PN 74HC74))
+      (place U15 112395 -88900 front 0 (PN 74HC04))
+      (place U16 136525 -145415 front 0 (PN 74HC74))
     )
     (component "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm::1"
-      (place U17 155575 -128270 front 0 (PN 74LS157))
-      (place U3 158178 -61150.5 front 0 (PN 74157))
+      (place U17 136525 -132715 front 0 (PN 74LS157))
+      (place U3 139128 -65595.5 front 0 (PN 74157))
     )
     (component "Package_DIP:DIP-64_W25.4mm_SIL_Headers"
-      (place U1 131445 -107315 front 0 (PN "68000 Boardside"))
+      (place U1 112395 -111760 front 0 (PN "68000 Boardside"))
     )
     (component "Package_LCC:PLCC-68_THT-Socket"
-      (place U2 133985 -36195 front 0 (PN MC68000FN))
+      (place U2 114935 -40640 front 0 (PN MC68000FN))
     )
     (component "Package_QFP:TQFP-44_10x10mm_P0.8mm"
-      (place U5 157480 -82550 front 0 (PN "ATF1502AS-7AX44"))
+      (place U5 138430 -86995 front 0 (PN "ATF1502AS-7AX44"))
     )
     (component "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-      (place U6 158115 -99949 front 0 (PN TPS7333QD))
+      (place U6 139065 -104394 front 0 (PN TPS7333QD))
     )
   )
   (library
@@ -862,7 +861,7 @@
       (pins U3-3 U1-46 U2-49 U5-13)
     )
     (net /CPU_CLK
-      (pins U11-2 U11-9 U15-1 U16-3 U17-10 U1-15 U5-37)
+      (pins U11-2 U11-9 U15-1 U16-3 U17-10 U1-15)
     )
     (net /CPU_A19
       (pins U1-47 U2-50 U5-12)
@@ -958,7 +957,7 @@
       (pins U8-32)
     )
     (net /CPU_AS
-      (pins U12-12 U13-13 U15-3 U17-14 U17-13 U1-6 U5-40)
+      (pins U12-12 U13-13 U15-3 U17-14 U17-13 U1-6)
     )
     (net /CPU_UDS
       (pins U1-7 U2-7 U5-38)
@@ -1102,10 +1101,10 @@
       (pins U11-6 R5-2)
     )
     (net /CPU_AS14
-      (pins U17-12 U2-6)
+      (pins U17-12 U2-6 U5-40)
     )
     (net /CPU_CLK14
-      (pins U17-9 U2-15)
+      (pins U17-9 U2-15 U5-37)
     )
     (net /CPU_VMA14
       (pins U18-4 U2-21)
@@ -1207,16 +1206,13 @@
       /CPU_IPL2 /CPU_LDS /CPU_RESET /CPU_RW /CPU_UDS /CPU_VMA /CPU_VMA14 /CPU_VPA
       /CPU_VPA14 /DRAM_A0 /DRAM_A1 /DRAM_A2 /DRAM_A3 /DRAM_A4 /DRAM_A5 /DRAM_A6
       /DRAM_A7 /DRAM_A8 /DRAM_A9 /DRAM_LCAS /DRAM_RAS0 /DRAM_RAS1 /DRAM_RAS2
-      /DRAM_RAS3 /DRAM_UCAS /MUX_SWITCH /TCK /TDI /TDO /TMS "Net-(C19-Pad2)"
-      "Net-(C20-Pad2)" "Net-(R4-Pad2)" "Net-(R5-Pad2)" "Net-(U10-Pad11)" "Net-(U10-Pad12)"
-      "Net-(U10-Pad15)" "Net-(U10-Pad16)" "Net-(U10-Pad32)" "Net-(U10-Pad8)"
-      "Net-(U12-Pad1)" "Net-(U12-Pad10)" "Net-(U12-Pad2)" "Net-(U12-Pad5)"
-      "Net-(U12-Pad6)" "Net-(U12-Pad8)" "Net-(U12-Pad9)" "Net-(U13-Pad12)"
-      "Net-(U13-Pad6)" "Net-(U14-Pad6)" "Net-(U14-Pad9)" "Net-(U16-Pad5)"
-      "Net-(U16-Pad6)" "Net-(U18-Pad12)" "Net-(U18-Pad7)" "Net-(U18-Pad9)"
-      "Net-(U2-Pad18)" "Net-(U2-Pad31)" "Net-(U4-Pad18)" "Net-(U4-Pad31)"
-      "Net-(U5-Pad8)" "Net-(U6-Pad11)" "Net-(U6-Pad12)" "Net-(U6-Pad15)" "Net-(U6-Pad16)"
-      "Net-(U6-Pad32)" "Net-(U6-Pad8)" "Net-(U7-Pad11)" "Net-(U7-Pad12)" "Net-(U7-Pad15)"
+      /DRAM_RAS3 /DRAM_UCAS /MUX_SWITCH /TCK /TDI /TDO /TMS "Net-(C20-Pad2)"
+      "Net-(R4-Pad2)" "Net-(R5-Pad2)" "Net-(U10-Pad11)" "Net-(U10-Pad12)"
+      "Net-(U10-Pad15)" "Net-(U10-Pad16)" "Net-(U10-Pad32)" "Net-(U12-Pad1)"
+      "Net-(U12-Pad2)" "Net-(U12-Pad5)" "Net-(U12-Pad8)" "Net-(U12-Pad9)"
+      "Net-(U13-Pad6)" "Net-(U14-Pad6)" "Net-(U14-Pad9)" "Net-(U16-Pad6)"
+      "Net-(U18-Pad12)" "Net-(U18-Pad7)" "Net-(U18-Pad9)" "Net-(U2-Pad18)"
+      "Net-(U2-Pad31)" "Net-(U6-Pad8)" "Net-(U7-Pad11)" "Net-(U7-Pad12)" "Net-(U7-Pad15)"
       "Net-(U7-Pad16)" "Net-(U7-Pad32)" "Net-(U8-Pad11)" "Net-(U8-Pad12)"
       "Net-(U8-Pad15)" "Net-(U8-Pad16)" "Net-(U8-Pad32)" "Net-(U9-Pad11)"
       "Net-(U9-Pad12)" "Net-(U9-Pad15)" "Net-(U9-Pad16)" "Net-(U9-Pad32)"
