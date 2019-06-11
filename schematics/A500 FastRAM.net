@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "/Users/kai/Documents/A500 KiCad Projects/A500 FastRAM/A500 FastRAM.sch")
-    (date "Sunday, 26 May 2019 at 23:23:49")
+    (date "Tuesday, 11 June 2019 at 19:28:20")
     (tool "Eeschema (5.1.2-1)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -40,7 +40,7 @@
       (tstamp 5CCCA900))
     (comp (ref U2)
       (value "68000 Socket")
-      (footprint Package_DIP:DIP-64_W25.4mm_Socket_LongPads)
+      (footprint Package_DIP:DIP-64_W22.86mm_Socket_LongPads)
       (datasheet https://www.nxp.com/docs/en/reference-manual/MC68000UM.pdf)
       (libsource (lib CPU_NXP_68000) (part 68000D) (description "16/32-bit Microprocessor"))
       (sheetpath (names /) (tstamps /))
@@ -48,7 +48,7 @@
     (comp (ref U3)
       (value ATF1502ASV-15JU44)
       (footprint Package_LCC:PLCC-44_THT-Socket)
-      (libsource (lib A500_Parts) (part ATF1502ASV-15JU44) (description ""))
+      (libsource (lib A500_Parts) (part ATF1502ASV-15JU44) (description "32 Macrocell 5v CPLD"))
       (sheetpath (names /) (tstamps /))
       (tstamp 5CCCF868))
     (comp (ref C1)
@@ -87,7 +87,7 @@
       (tstamp 5CD413A4))
     (comp (ref U1)
       (value "68000 Boardside")
-      (footprint Package_DIP:DIP-64_W25.4mm_SIL_Headers)
+      (footprint Package_DIP:DIP-64_W22.86mm_Socket_LongPads)
       (datasheet https://www.nxp.com/docs/en/reference-manual/MC68000UM.pdf)
       (libsource (lib CPU_NXP_68000) (part 68000D) (description "16/32-bit Microprocessor"))
       (sheetpath (names /) (tstamps /))
@@ -258,6 +258,7 @@
         (pin (num 15) (name ~EN) (type input))
         (pin (num 16) (name VCC) (type power_in))))
     (libpart (lib A500_Parts) (part ATF1502ASV-15JU44)
+      (description "32 Macrocell 5v CPLD")
       (fields
         (field (name Reference) U)
         (field (name Value) ATF1502ASV-15JU44))
