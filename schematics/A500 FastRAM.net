@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "/Users/kai/Documents/A500 KiCad Projects/A500 FastRAM v2/A500 FastRAM.sch")
-    (date "Saturday, 08 June 2019 at 16:56:49")
+    (date "Tuesday, 11 June 2019 at 23:32:11")
     (tool "Eeschema (5.1.2-1)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -79,7 +79,7 @@
       (tstamp 5CD413A4))
     (comp (ref U1)
       (value "68000 Boardside")
-      (footprint Package_DIP:DIP-64_W25.4mm_SIL_Headers)
+      (footprint Package_DIP:DIP-64_W22.86mm_LongPads)
       (datasheet https://www.nxp.com/docs/en/reference-manual/MC68000UM.pdf)
       (libsource (lib CPU_NXP_68000) (part 68000D) (description "16/32-bit Microprocessor"))
       (sheetpath (names /) (tstamps /))

@@ -295,7 +295,7 @@ U 1 1 5CD84B2C
 P 2000 5150
 F 0 "U1" H 2000 6950 50  0000 C CNN
 F 1 "68000 Boardside" H 2000 6800 50  0000 C CNN
-F 2 "Package_DIP:DIP-64_W25.4mm_SIL_Headers" H 2000 5150 50  0001 C CNN
+F 2 "Package_DIP:DIP-64_W22.86mm_LongPads" H 2000 5150 50  0001 C CNN
 F 3 "https://www.nxp.com/docs/en/reference-manual/MC68000UM.pdf" H 2000 5150 50  0001 C CNN
 	1    2000 5150
 	1    0    0    -1  
